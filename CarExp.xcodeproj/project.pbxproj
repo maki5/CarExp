@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2088D4B31F97EE1000C740D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2088D4B21F97EE1000C740D0 /* AppDelegate.swift */; };
-		2088D4B51F97EE1000C740D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2088D4B41F97EE1000C740D0 /* ViewController.swift */; };
+		2088D4B51F97EE1000C740D0 /* SelectCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2088D4B41F97EE1000C740D0 /* SelectCarViewController.swift */; };
 		2088D4B81F97EE1000C740D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2088D4B61F97EE1000C740D0 /* Main.storyboard */; };
 		2088D4BB1F97EE1000C740D0 /* CarExp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2088D4B91F97EE1000C740D0 /* CarExp.xcdatamodeld */; };
 		2088D4BD1F97EE1000C740D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2088D4BC1F97EE1000C740D0 /* Assets.xcassets */; };
 		2088D4C01F97EE1000C740D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2088D4BE1F97EE1000C740D0 /* LaunchScreen.storyboard */; };
+		2088D4C81F9917F800C740D0 /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2088D4C71F9917F800C740D0 /* AddCarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2088D4AF1F97EE1000C740D0 /* CarExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2088D4B21F97EE1000C740D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2088D4B41F97EE1000C740D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2088D4B41F97EE1000C740D0 /* SelectCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCarViewController.swift; sourceTree = "<group>"; };
 		2088D4B71F97EE1000C740D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2088D4BA1F97EE1000C740D0 /* CarExp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarExp.xcdatamodel; sourceTree = "<group>"; };
 		2088D4BC1F97EE1000C740D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2088D4BF1F97EE1000C740D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2088D4C11F97EE1000C740D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2088D4C71F9917F800C740D0 /* AddCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				2088D4B21F97EE1000C740D0 /* AppDelegate.swift */,
-				2088D4B41F97EE1000C740D0 /* ViewController.swift */,
+				2088D4B41F97EE1000C740D0 /* SelectCarViewController.swift */,
 				2088D4B61F97EE1000C740D0 /* Main.storyboard */,
 				2088D4BC1F97EE1000C740D0 /* Assets.xcassets */,
 				2088D4BE1F97EE1000C740D0 /* LaunchScreen.storyboard */,
 				2088D4C11F97EE1000C740D0 /* Info.plist */,
 				2088D4B91F97EE1000C740D0 /* CarExp.xcdatamodeld */,
+				2088D4C71F9917F800C740D0 /* AddCarViewController.swift */,
 			);
 			path = CarExp;
 			sourceTree = "<group>";
@@ -139,9 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2088D4B51F97EE1000C740D0 /* ViewController.swift in Sources */,
+				2088D4B51F97EE1000C740D0 /* SelectCarViewController.swift in Sources */,
 				2088D4B31F97EE1000C740D0 /* AppDelegate.swift in Sources */,
 				2088D4BB1F97EE1000C740D0 /* CarExp.xcdatamodeld in Sources */,
+				2088D4C81F9917F800C740D0 /* AddCarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
